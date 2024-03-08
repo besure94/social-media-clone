@@ -14,6 +14,7 @@ code {
 
 #home-tabs, h3 {
   display: inline-block;
+  padding-right: 1rem;
 }
 
 h1 {
