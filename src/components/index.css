@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+#home-tabs, h3 {
+  display: inline-block;
+}
+
 h1 {
   text-align: center;
 }
