@@ -1,9 +1,17 @@
 import React from "react";
+import Tabs from "./Tabs";
+import SearchBar from "./SearchBar";
+import Tweet from "./Tweet";
 
 function Header() {
   return (
     <React.Fragment>
-      <h1>Tweeter</h1>
+      <Tabs
+        home="Home"
+        notifications="Notifications"
+        messages="Messages"/>
+      <SearchBar/>
+      <Tweet/>
     </React.Fragment>
   );
 }
