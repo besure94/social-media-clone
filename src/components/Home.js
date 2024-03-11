@@ -12,7 +12,7 @@ function Home() {
         followers="Followers"
       />
       <Bio
-        bio="29 year old musician and aspiring programmer."
+        bio="29 year old musician and aspiring programmer. 30 in June!"
       />
     </React.Fragment>
   );
