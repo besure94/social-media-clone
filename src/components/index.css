@@ -22,10 +22,6 @@ code {
   font-size: 1.2rem;
 }
 
-h1 {
-  text-align: center;
-}
-
 .pic {
   font-size: 8rem;
 }
@@ -36,7 +32,10 @@ h1 {
 }
 
 .profile-info {
-  font-size: 0.5rem;
+  display: flex;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  justify-content: space-between;
 }
 
 #root {
