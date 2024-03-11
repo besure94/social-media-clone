@@ -11,8 +11,10 @@ function App() {
         <Header/>
         <div class="tabs-and-features">
           <Tabs/>
-          <SearchBar/>
-          <Tweet/>
+          <div class="features">
+            <SearchBar/>
+            <Tweet/>
+          </div>
         </div>
       </div>
       <hr/>

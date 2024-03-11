@@ -12,6 +12,16 @@ code {
     monospace;
 }
 
+.container {
+  flex-direction: column;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.features {
+  display: flex;
+}
+
 #home-tabs, h3 {
   display: inline-block;
   padding-right: 1rem;
@@ -28,4 +38,5 @@ h1 {
 .tabs-and-features {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
