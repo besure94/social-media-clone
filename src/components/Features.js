@@ -2,10 +2,10 @@ import React from "react";
 
 function Features(props) {
   return (
-    <React.Fragment>
+    <div>
       <input id="search" type="text" placeholder="Search">{props.search}</input>
       <input id="tweet" type="text" placeholder="Tweet">{props.tweet}</input>
-    </React.Fragment>
+    </div>
   );
 }
 

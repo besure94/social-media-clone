@@ -4,13 +4,13 @@ import Features from "./Features";
 
 function Header() {
   return (
-    <React.Fragment>
+    <div className="header-container">
       <Tabs
         home="Home"
         notifications="Notifications"
         messages="Messages"/>
       <Features/>
-    </React.Fragment>
+    </div>
   );
 }
 

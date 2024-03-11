@@ -3,11 +3,9 @@ import PropTypes from "prop-types";
 
 function Bio(props) {
   return (
-    <React.Fragment>
-      <div className="bio">
-        <p>{props.bio}</p>
-      </div>
-    </React.Fragment>
+    <div className="bio">
+      <p>{props.bio}</p>
+    </div>
   );
 }
 
