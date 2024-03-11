@@ -33,10 +33,24 @@ h1 {
 
 #search {
   margin-right: 1.5rem;
+  border: 0.2rem solid blue;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  width: 40%;
 }
 
 .tabs-and-features {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+#tweet {
+  border: 0.2rem solid blue;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+  width: 20%;
 }
