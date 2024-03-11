@@ -1,7 +1,6 @@
 import React from "react";
 import Tabs from "./Tabs";
-import SearchBar from "./SearchBar";
-import Tweet from "./Tweet";
+import Features from "./Features";
 
 function Header() {
   return (
@@ -10,8 +9,7 @@ function Header() {
         home="Home"
         notifications="Notifications"
         messages="Messages"/>
-      <SearchBar/>
-      <Tweet/>
+      <Features/>
     </React.Fragment>
   );
 }
