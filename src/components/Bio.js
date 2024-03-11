@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 function Bio(props) {
   return (
@@ -8,6 +9,10 @@ function Bio(props) {
       </div>
     </React.Fragment>
   );
+}
+
+Bio.propTypes = {
+  bio: PropTypes.string
 }
 
 export default Bio;

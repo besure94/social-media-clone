@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 function Profile(props) {
   return (
@@ -15,6 +16,10 @@ function Profile(props) {
       </div>
     </React.Fragment>
   );
+}
+
+Profile.propTypes = {
+  name: PropTypes.string.isRequired
 }
 
 export default Profile;
