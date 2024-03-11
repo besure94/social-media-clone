@@ -5,8 +5,8 @@ function Tabs(props) {
     <React.Fragment>
       <div id="home-tabs">
         <div className="tabs">
-          <p><span class="tab-select">{props.home}</span></p>
-          <p><span class="tab-select">{props.notifications}</span></p>
+          <p><span className="tab-select">{props.home}</span></p>
+          <p><span className="tab-select">{props.notifications}</span></p>
           <p>{props.messages}</p>
         </div>
       </div>
