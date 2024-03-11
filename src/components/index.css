@@ -12,12 +12,6 @@ code {
     monospace;
 }
 
-.container {
-  flex-direction: column;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-}
-
 .features {
   display: flex;
 }
@@ -29,6 +23,12 @@ code {
 
 h1 {
   text-align: center;
+}
+
+#root {
+  flex-direction: column;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 #search {

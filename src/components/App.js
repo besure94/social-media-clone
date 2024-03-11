@@ -7,11 +7,11 @@ import Tweet from "./Tweet";
 function App() {
   return (
     <React.Fragment>
-      <div class="container">
+      <div className="container">
         <Header/>
-        <div class="tabs-and-features">
+        <div className="tabs-and-features">
           <Tabs/>
-          <div class="features">
+          <div className="features">
             <SearchBar/>
             <Tweet/>
           </div>
