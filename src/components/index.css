@@ -20,3 +20,8 @@ code {
 h1 {
   text-align: center;
 }
+
+.tabs-and-features {
+  display: flex;
+  align-items: center;
+}

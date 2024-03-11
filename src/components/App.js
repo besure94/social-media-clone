@@ -6,9 +6,14 @@ import SearchBar from "./SearchBar";
 function App() {
   return (
     <React.Fragment>
-      <Header/>
-      <Tabs/>
-      <SearchBar/>
+      <div class="container">
+        <Header/>
+        <div class="tabs-and-features">
+          <Tabs/>
+          <SearchBar/>
+        </div>
+      </div>
+      <hr/>
     </React.Fragment>
   );
 }
