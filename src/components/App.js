@@ -3,6 +3,7 @@ import Header from "./Header";
 import Tabs from "./Tabs";
 import SearchBar from "./SearchBar";
 import Tweet from "./Tweet";
+import Profile from "./Profile";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
         </div>
       </div>
       <hr/>
+      <div className="profile">
+        <Profile/>
+      </div>
     </React.Fragment>
   );
 }
