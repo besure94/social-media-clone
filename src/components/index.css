@@ -16,9 +16,10 @@ code {
   display: flex;
 }
 
-#home-tabs, h3 {
+#home-tabs, p {
   display: inline-block;
-  padding-right: 1rem;
+  margin: 0.25rem;
+  font-size: 1.2rem;
 }
 
 h1 {
@@ -38,6 +39,17 @@ h1 {
   font-size: 1rem;
   padding: 0.5rem;
   width: 40%;
+}
+
+.tabs {
+  border: 0.15rem grey solid;
+  padding: 0.6rem;
+}
+
+.tab-select {
+  border-right: 0.1rem grey solid;
+  padding-right: 0.5rem;
+  flex-direction: column;
 }
 
 .tabs-and-features {

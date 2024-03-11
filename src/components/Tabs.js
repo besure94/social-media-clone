@@ -4,9 +4,11 @@ function Tabs() {
   return (
     <React.Fragment>
       <div id="home-tabs">
-        <h3>Home</h3>
-        <h3>Notifications</h3>
-        <h3>Messages</h3>
+        <div className="tabs">
+          <p><span class="tab-select">Home</span></p>
+          <p><span class="tab-select">Notifications</span></p>
+          <p>Messages</p>
+        </div>
       </div>
     </React.Fragment>
   );
