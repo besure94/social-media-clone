@@ -1,16 +1,13 @@
 import React from "react";
 import Header from "./Header";
-
-import Profile from "./Profile";
+import Home from "./Home";
 
 function App() {
   return (
     <React.Fragment>
       <Header/>
       <hr/>
-      <div className="profile">
-        <Profile/>
-      </div>
+      <Home/>
     </React.Fragment>
   );
 }

@@ -1,15 +1,15 @@
 import React from "react";
 
-function Profile() {
+function Profile(props) {
   return (
     <React.Fragment>
       <div className="avatar">
         <i class="pic">&#xf406;</i>
-        <p>Brian Czerner</p>
+        <p>{props.name}</p>
         <div class="profile-info">
-          <p>Tweets</p>
-          <p>Following</p>
-          <p>Followers</p>
+          <p>{props.tweets}</p>
+          <p>{props.following}</p>
+          <p>{props.followers}</p>
         </div>
       </div>
     </React.Fragment>
