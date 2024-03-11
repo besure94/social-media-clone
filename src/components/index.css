@@ -21,6 +21,10 @@ h1 {
   text-align: center;
 }
 
+#search {
+  margin-right: 1.5rem;
+}
+
 .tabs-and-features {
   display: flex;
   align-items: center;
