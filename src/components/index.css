@@ -47,8 +47,15 @@ code {
 
 /* news feed column styling */
 
+img {
+  width: 5rem;
+  float: left;
+}
+
 .newsfeed-column {
   padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   min-width: 40%;
   border: 0.1rem grey solid;
 }
