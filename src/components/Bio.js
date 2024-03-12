@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 function Bio(props) {
   return (
     <div className="bio">
+      <h4>Bio</h4>
       <p>{props.bio}</p>
     </div>
   );

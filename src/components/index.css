@@ -24,6 +24,8 @@ code {
   margin-top: 1rem;
   border: 0.1rem grey solid;
   text-align: center;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
 }
 
 .pic {
@@ -41,7 +43,8 @@ code {
 .profile-info {
   display: flex;
   font-size: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   justify-content: space-between;
 }
 
