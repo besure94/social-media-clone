@@ -49,6 +49,7 @@ code {
 
 img {
   width: 5rem;
+  height: auto;
   float: left;
 }
 
@@ -74,6 +75,10 @@ img {
 .contacts-column {
   border: 0.1rem grey solid;
   min-width: 30%;
+}
+
+#contact-header {
+  text-align: center;
 }
 
 /* container for whole page */

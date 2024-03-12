@@ -4,12 +4,12 @@ import profileIcon from "./../img/profile-icon.jpg";
 
 function Contact(props) {
   return (
-    <React.Fragment>
+    <div className="contacts-list">
       <img src={profileIcon} alt="A user profile icon."/>
       <h4>{props.contactName}</h4>
       <button>Message</button>
       <br/>
-    </React.Fragment>
+    </div>
   );
 }
 
