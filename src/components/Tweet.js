@@ -14,8 +14,8 @@ function Tweet(props) {
 }
 
 Tweet.propTypes = {
-  userName: PropTypes.string,
-  userTweet: PropTypes.string
+  userName: PropTypes.string.isRequired,
+  userTweet: PropTypes.string.isRequired
 }
 
 export default Tweet;

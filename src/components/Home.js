@@ -2,6 +2,7 @@ import React from "react";
 import Profile from "./Profile";
 import Bio from "./Bio";
 import NewsFeed from "./NewsFeed";
+import ContactsList from "./ContactsList";
 
 function Home() {
   return (
@@ -19,6 +20,9 @@ function Home() {
       </div>
       <div className="newsfeed-column">
         <NewsFeed/>
+      </div>
+      <div className="contacts-column">
+        <ContactsList/>
       </div>
     </div>
   );
