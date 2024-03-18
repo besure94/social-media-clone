@@ -22,7 +22,7 @@ This application is designed to demonstrate my understanding of using React comp
 ## Setup/Installation Requirements
 
 * Select the green "Code" button, and clone this repository to your desktop.
-^ In your terminal, go to your project folder and run the command `$ npm run start` to start a live development server.
+* In your terminal, go to your project folder and run the command `$ npm run start` to start a live development server.
 
 To view a diagram of the application, please reference the `Social_Media_Clone.drawio.svg` file.
 
