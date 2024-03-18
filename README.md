@@ -17,7 +17,7 @@
 
 ## Description
 
-This application is designed to demonstrate my understanding of using React ocmponents to create modular UI elements. It is a static page with no functionality. Its purpose is to practice using React components, JSX, and CSS.
+This application is designed to demonstrate my understanding of using React components to create modular UI elements. It is a static page with no functionality. Its purpose is to practice using React components, JSX, and CSS.
 
 ## Setup/Installation Requirements
 
